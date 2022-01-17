@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "dd4fc234-05bb-4331-a8b5-239d10ff9548": {
+      "ProjectGuid": "dd4fc234-05bb-4331-a8b5-239d10ff9548",
+      "DisplayName": "acelerador_API",
+      "ColorIndex": 0
+    },
+    "c805991b-4fa6-472d-9586-419d539ca012": {
+      "ProjectGuid": "c805991b-4fa6-472d-9586-419d539ca012",
+      "DisplayName": "acelerador.WinApp",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

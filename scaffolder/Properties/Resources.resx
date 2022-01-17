@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="appSettings" xml:space="preserve">
+    <value>{
+	"Logging": {
+		"IncludeScopes": false,
+		"Debug": {
+			"LogLevel": {
+				"Default": "Warning"
+			}
+		},
+		"Console": {
+			"LogLevel": {
+				"Default": "Warning"
+			}
+		}
+	},
+	"ConnectionStrings": {
+		"[DbName]DB": "[ConnectionString]"
+	}
+}</value>
+  </data>
+  <data name="csProject" xml:space="preserve">
+    <value>&lt;Project Sdk="Microsoft.NET.Sdk.Web"&gt;
+	&lt;PropertyGroup&gt;
+		&lt;TargetFramework&gt;netcoreapp2.0&lt;/TargetFramework&gt;
+	&lt;/PropertyGroup&gt;
+
+	&lt;ItemGroup&gt;
+		&lt;Folder Include="wwwroot\" /&gt;
+	&lt;/ItemGroup&gt;
+
+	&lt;ItemGroup&gt;
+		&lt;PackageReference Include="EntitySearch" Version="1.0.0" /&gt;
+		&lt;PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" /&gt;
+	&lt;/ItemGroup&gt;
+
+	&lt;ItemGroup&gt;
+		&lt;DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.1" /&gt;
+	&lt;/ItemGroup&gt;
+
+&lt;/Project&gt;</value>
+  </data>
+  <data name="launchSettings" xml:space="preserve">
+    <value>{
+	"iisSettings": {
+		"windowsAuthentication": false,
+		"anonymousAuthentication": true,
+		"iisExpress": {
+			"applicationUrl": "http://localhost:[Port]/",
+			"sslPort": 0
+		}
+	},
+	"profiles": {
+		"IIS Express": {
+			"commandName": "IISExpress",
+			"environmentVariables": {
+				"ASPNETCORE_ENVIRONMENT": "Development"
+			}
+		},
+		"[Namespace]": {
+			"commandName": "Project",
+			"environmentVariables": {
+				"ASPNETCORE_ENVIRONMENT": "Development"
+			},
+			"applicationUrl": "http://localhost:[Port2]/"
+		}
+	}
+}</value>
+  </data>
+  <data name="Program" xml:space="preserve">
+    <value>using Microsoft.AspNetCore;
+using Microsoft.AspNetCore.Hosting;
+
+namespace [Namespace]
+{
+	public class Program
+	{
+		public static void Main(string[] args)
+		{
+			BuildWebHost(args).Run();
+		}
+
+		public static IWebHost BuildWebHost(string[] args) =&gt;
+			WebHost.CreateDefaultBuilder(args)
+				.UseStartup&lt;Startup&gt;()
+				.Build();
+	}
+}</value>
+  </data>
+  <data name="PropertyCopier" xml:space="preserve">
+    <value>using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace [Namespace].Helpers
+{
+	public class PropertyCopier
+	{
+		public static void CopyPropertyValues(object source, object destination)
+		{
+			var destProperties = destination.GetType().GetProperties();
+
+			foreach (var sourceProperty in source.GetType().GetProperties())
+			{
+				if (sourceProperty.GetValue(source, new object[] { }) != null)
+				{
+					foreach (var destProperty in destProperties)
+					{
+						if (destProperty.Name == sourceProperty.Name &amp;&amp;
+					destProperty.PropertyType.IsAssignableFrom(sourceProperty.PropertyType))
+						{
+							destProperty.SetValue(destination, sourceProperty.GetValue(
+								source, new object[] { }), new object[] { });
+
+							break;
+						}
+					}
+				}
+			}
+		}
+	}
+}</value>
+  </data>
+  <data name="SearchHelper" xml:space="preserve">
+    <value>using EntitySearch;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace [Namespace].Helpers
+{
+	public class SearchHelper&lt;T&gt; where T : class
+	{
+		public static IQueryable&lt;T&gt; SearchFiltering(IQueryable&lt;T&gt; source, String field, String searchTerm, String searchOperator)
+		{
+			Operator soperator = Operator.Equals;
+			if (searchTerm != null)
+			{
+				if (searchTerm.Trim() != "")
+				{
+					if (field != null)
+					{
+						if (field.Trim() != "")
+						{
+							if (searchOperator != null)
+							{
+								if (searchOperator.Trim() != "")
+								{
+									switch (searchOperator)
+									{
+										case "Equals":
+											soperator = Operator.Equals;
+											break;
+										case "LargerThan":
+											soperator = Operator.LargerThan;
+											break;
+										case "LargerEqualThan":
+											soperator = Operator.LargerEqualThan;
+											break;
+										case "LesserThan":
+											soperator = Operator.LesserThan;
+											break;
+										case "LesserEqualThan":
+											soperator = Operator.LesserEqualThan;
+											break;
+										case "StartWith":
+											soperator = Operator.StartWith;
+											break;
+										case "EndsWith":
+											soperator = Operator.EndWith;
+											break;
+										case "Between":
+											soperator = Operator.Between;
+											break;
+										case "Contains":
+											soperator = Operator.Contains;
+											break;
+										default:
+											goto NoOperatorSearch;
+									}
+									goto SearchFieldOperator;
+								}
+								else
+								{
+									goto NoOperatorSearch;
+								}
+							}
+							else
+							{
+								goto NoOperatorSearch;
+							}
+						}
+						else
+						{
+							if (searchOperator != null)
+							{
+								if (searchOperator.Trim() != "")
+								{
+									switch (searchOperator)
+									{
+										case "Equals":
+											soperator = Operator.Equals;
+											break;
+										case "LargerThan":
+											soperator = Operator.LargerThan;
+											break;
+										case "LargerEqualThan":
+											soperator = Operator.LargerEqualThan;
+											break;
+										case "LesserThan":
+											soperator = Operator.LesserThan;
+											break;
+										case "LesserEqualThan":
+											soperator = Operator.LesserEqualThan;
+											break;
+										case "StartWith":
+											soperator = Operator.StartWith;
+											break;
+										case "EndsWith":
+											soperator = Operator.EndWith;
+											break;
+										case "Between":
+											soperator = Operator.Between;
+											break;
+										case "Contains":
+											soperator = Operator.Contains;
+											break;
+										default:
+											goto FullSearch;
+									}
+									goto NoFieldSearch;
+								}
+								else
+								{
+									goto FullSearch;
+								}
+							}
+							else
+							{
+								goto FullSearch;
+							}
+						}
+					}
+					else
+					{
+						if (searchOperator != null)
+						{
+							if (searchOperator.Trim() != "")
+							{
+								goto NoFieldSearch;
+							}
+							else
+							{
+								goto FullSearch;
+							}
+						}
+						else
+						{
+							goto FullSearch;
+						}
+					}
+				}
+				else
+				{
+					goto EndSearch;
+				}
+			}
+			else
+			{
+				goto EndSearch;
+			}
+			
+			FullSearch:
+				source = source.Where(x =&gt; EntitySearch.EntitySearch.Perform(x, searchTerm) == true).AsQueryable();
+				goto EndSearch;
+			NoOperatorSearch:
+				source = source.Where(x =&gt; EntitySearch.EntitySearch.Perform(x, field, searchTerm));
+				goto EndSearch;
+			NoFieldSearch:
+				source = source.AsQueryable().Where(x =&gt; EntitySearch.EntitySearch.Perform(x, searchTerm, soperator));
+				goto EndSearch;
+			SearchFieldOperator:
+				source = source.AsQueryable().Where(x =&gt; EntitySearch.EntitySearch.Perform(x, field, searchTerm, soperator));
+				goto EndSearch;
+			EndSearch:
+			return source;
+		}
+	}
+}</value>
+  </data>
+  <data name="Solution" xml:space="preserve">
+    <value>Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{[AlphaGuid]}") = "[Namespace]", "[Namespace]\[Namespace].csproj", "{[BetaGuid]}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{[BetaGuid]}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{[BetaGuid]}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{[BetaGuid]}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{[BetaGuid]}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {[OmegaGuid]}
+	EndGlobalSection
+EndGlobal</value>
+  </data>
+  <data name="Startup" xml:space="preserve">
+    <value>using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using [Namespace].Models;
+using Microsoft.EntityFrameworkCore;
+
+namespace [Namespace]
+{
+	public class Startup
+	{
+		public Startup(IConfiguration configuration)
+		{
+			Configuration = configuration;
+		}
+
+		public IConfiguration Configuration { get; }
+
+		// This method gets called by the runtime. Use this method to add services to the container.
+		public void ConfigureServices(IServiceCollection services)
+		{
+			services.AddMvc();
+			services.AddOptions();
+			services.AddDbContext&lt;[DbName]DB&gt;(options =&gt; options.UseSqlServer(Configuration.GetConnectionString("[DbName]DB")));
+		}
+
+		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+		public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+		{
+			if (env.IsDevelopment())
+			{
+				app.UseDeveloperExceptionPage();
+			}
+
+			app.UseMvc();
+		}
+	}
+}</value>
+  </data>
+</root>
